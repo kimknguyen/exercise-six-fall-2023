@@ -1,0 +1,14 @@
+.Header{
+    align-items: center;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 10px 25px; 
+}
+
+.HeaderNav {
+    color: black; 
+    font: 16px; 
+    padding: 3px; 
+    text-decoration: none;
+
+}

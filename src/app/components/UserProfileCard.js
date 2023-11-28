@@ -1,7 +1,11 @@
-const UserProfileCard = () => {
+import styles from "./components.module.css"; 
+
+const UserProfileCard = ({user}) => {
     return (
-        <div>
+        <div className={styles.UserProfile}>
             <h2>User Profile</h2>
+            <h2>Name: {user.name}</h2>
+            <p>Password: {user.emai}</p>
         </div>
     ); 
 }; 

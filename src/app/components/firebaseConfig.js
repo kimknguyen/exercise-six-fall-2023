@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: `${process.env.FIREBASE_API_KEY}`,
+    apiKey: "AIzaSyDREXUt-WEK00PqkgDUKlxuM55IR8TcDzM",
     authDomain: "exercise-six-fall2023.firebaseapp.com",
     projectId: "exercise-six-fall2023",
     storageBucket: "exercise-six-fall2023.appspot.com",

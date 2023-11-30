@@ -3,6 +3,7 @@ import styles from './components.module.css'
 
 const Header = () => {
     return (
+        <div className={styles.Header}>
         <header>
             <nav>
                 <Link href="/">User Profile</Link>
@@ -10,6 +11,7 @@ const Header = () => {
                 <Link href="/create">Create User</Link>
             </nav>
         </header>
+        </div>
     )
 }
 

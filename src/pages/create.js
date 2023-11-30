@@ -1,8 +1,20 @@
+import { useEffect } from "react"; 
+import { useRouter } from "next/router"; 
 import Header from "@/app/components/Header"
 import CreateUser from "@/app/components/CreateUserForm"
 
 
-export default function Create() {
+export default function Create( { isLoggedIn } ) {
+
+    const router = useRouter(); 
+    
+    useEffect(() => {
+        if (!isLoggedIn) router.push("/"); 
+    }, [isLoggedIn]); 
+
+
+
+
     return (
         <>
         <Header /> 

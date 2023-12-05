@@ -1,11 +1,11 @@
 import styles from "./components.module.css"; 
 
 
-const CreateUser = () => {
+const CreateUserForm = ( {createUser }) => {
     return (
         <div>
-            <h2>Create User</h2>
-            <form className={styles.form}>
+            <h2>Create User Form</h2>
+            <form className={styles.form} onSubmit={(e) => createUser(e)}>
                 <label htmlFor= "name">Name</label>
                 <input type="text" name="name" />
 
@@ -13,7 +13,7 @@ const CreateUser = () => {
                 <input type="email" name="email" />
 
                 <label htmlFor= "pass">Password</label>
-                <input type="password" name="pass" />
+                <input type="password" name="password" />
 
                 <button type= "submit">Create User</button>            
             </form>
@@ -21,4 +21,4 @@ const CreateUser = () => {
     )
 }
 
-export default CreateUser
+export default CreateUserForm; 

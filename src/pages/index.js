@@ -12,6 +12,7 @@ export default function UserProfile( { isLoggedIn, userInformation }) {
 
     return (
         <main>
+        
             <h1>User Profile</h1>
             <UserProfileCard user={userInformation} />
         </main>

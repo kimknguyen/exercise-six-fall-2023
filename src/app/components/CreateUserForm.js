@@ -1,7 +1,7 @@
 import styles from "./components.module.css"; 
 
 
-const CreateUserForm = ( {createUser }) => {
+const CreateUserForm = ( { createUser }) => {
     return (
         <div>
             <h2>Create User Form</h2>
@@ -12,7 +12,7 @@ const CreateUserForm = ( {createUser }) => {
                 <label htmlFor= "email">Email</label>
                 <input type="email" name="email" />
 
-                <label htmlFor= "pass">Password</label>
+                <label htmlFor= "password">Password</label>
                 <input type="password" name="password" />
 
                 <button type= "submit">Create User</button>            
